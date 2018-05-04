@@ -4,8 +4,15 @@
   "description": "",
   "main": "\u001b[A\u001b[B",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.7.0"
+  },
+  "dependencies": {
+    "mapbox-gl": "^0.45.0-beta.1"
+  }
 }
